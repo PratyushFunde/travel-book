@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-color: rgba(0, 0, 0, 0.773);
+  color: whitesmoke;
+}
+
+.border-1 {
+    border: 2px dotted #FF5733; /* reddish-orange */
+  }
+  
+  .border-2 {
+    border: 2px dotted #33FF57; /* green */
+  }
+  
+  .border-3 {
+    border: 2px dotted #3357FF; /* blue */
+  }
+  
+  .border-4 {
+    border: 2px dotted #FF33A8; /* pink */
+  }
+  
+  .border-5 {
+    border: 2px dotted #FFD133; /* yellow */
+  }
+  
+  .border-6 {
+    border: 2px dotted #33FFF3; /* aqua */
+  }
+  
+  .border-7 {
+    border: 2px dotted #9D33FF; /* purple */
+  }
+  
+  .border-8 {
+    border: 2px dotted #FF8C33; /* coral */
+  }
+  
+  .border-9 {
+    border: 2px dotted #FF5733; /* light red */
+  }
+  
+  .border-10 {
+    border: 2px dotted #33FF8C; /* mint green */
+  }
+  

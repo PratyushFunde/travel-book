@@ -1,0 +1,93 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 2px 5px -1px;
+    img{
+        height: 5rem;
+        border-radius: 7px;
+    }
+
+    select{
+        justify-self: flex-start;
+    }
+}
+
+
+.search{
+
+    width: 90%;
+    padding: 1rem;
+    input{
+        width: 50%;
+        margin-right: 1rem;
+        border-radius: 5px;
+        padding: 0.5rem;
+        border: 1px solid grey;
+    }
+}
+
+.logo{
+    width: 40%;
+    display: flex;
+
+    justify-content: center;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* CSS */
+.Btn {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  margin-right: 1rem;
+}
+
+.Btn::before {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  left: -100%;
+  top: 0;
+  transition-duration: .3s;
+  mix-blend-mode: difference;
+}
+
+.Btn:hover::before {
+  transition-duration: .3s;
+  transform: translate(100%,-50%);
+  border-radius: 0;
+}
+
+.Btn:active {
+  transform: translate(5px,5px);
+  transition-duration: .3s;
+}
+
+.icons{
+  display: flex;
+}

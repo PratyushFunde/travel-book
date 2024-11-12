@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: space-evenly   ;
+    gap: 2rem;
+}
+
+.previous{
+    display: flex;
+    align-items: center;
+    // background-color: black;
+    transition: all 0.3s ease-in-out;
+    button{
+        background-color: rgb(157, 151, 151);
+        height: 2rem;
+        width: 2rem;
+    }
+    i{
+        size: 50px;
+    }
+}
+
+.next{
+    display: flex;
+    align-items: center;
+    button{
+        transition: all 0.3s ease-in-out;
+        background-color: rgb(157, 151, 151);
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+
+    // background-color: red;

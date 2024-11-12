@@ -1,0 +1,176 @@
+// /* your-form.component.css */
+
+// form {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 1.5em;
+//     max-width: 500px;
+//     margin: auto;
+//     padding: 20px;
+//     border-radius: 8px;
+//     background-color: #f8f9fa;
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//     font-family: Arial, sans-serif;
+//     margin-top: 5rem;
+//   }
+  
+//   label {
+//     font-weight: bold;
+//     color: #495057;
+//     margin-bottom: 4px;
+//   }
+  
+//   input[type="text"],
+//   input[type="date"],
+//   textarea {
+//     width: 100%;
+//     padding: 10px;
+//     border: 1px solid #ced4da;
+//     border-radius: 4px;
+//     font-size: 1em;
+//     color: #495057;
+//     background-color: #ffffff;
+//   }
+  
+//   input[type="text"]:focus,
+//   input[type="date"]:focus,
+//   textarea:focus {
+//     border-color: #80bdff;
+//     outline: none;
+//     box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+//   }
+  
+//   textarea {
+//     resize: vertical;
+//     min-height: 80px;
+//   }
+  
+//   button {
+//     cursor: pointer;
+//     padding: 10px 15px;
+//     font-size: 1em;
+//     font-weight: bold;
+//     border: none;
+//     border-radius: 4px;
+//     color: #ffffff;
+//     background-color: #007bff;
+//     transition: background-color 0.3s;
+//   }
+  
+//   button:hover {
+//     background-color: #0056b3;
+//   }
+  
+//   button:disabled {
+//     background-color: #6c757d;
+//     cursor: not-allowed;
+//   }
+  
+//   button[type="button"] {
+//     background-color: #6c757d;
+//     margin-left: 10px;
+//   }
+  
+//   button[type="button"]:hover {
+//     background-color: #5a6268;
+//   }
+  
+//   .place-input-group {
+//     display: flex;
+//     align-items: center;
+//     gap: 10px;
+//     margin-top: 5px;
+//   }
+  
+//   .add-place-button {
+//     margin-top: 5px;
+//     background-color: #28a745;
+//   }
+  
+//   .add-place-button:hover {
+//     background-color: #218838;
+//   }
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  textarea:focus {
+    border-color: #007bff;
+  }
+  
+  button[type="button"],
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="button"]:hover,
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  formArrayName {
+    margin-top: 10px;
+  }
+  
+  formArrayName div {
+    display: flex;
+    align-items: center;
+  }
+  
+  formArrayName input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  formArrayName button {
+    flex: 0 0 auto;
+  }
+  
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  

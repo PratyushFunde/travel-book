@@ -1,0 +1,13 @@
+<div class="container">
+    <!-- <h1>Hi</h1> -->
+    <div class="previous "><button (click)="prevItems()"><i class="pi pi-arrow-left"
+                style="color: white"></i></button></div>
+    <app-trip *ngFor="let i of getVisibleItems()" [data]="i"></app-trip>
+    <div class="next "><button (click)="nextItems()"><i class="pi pi-arrow-right"
+                style="color: white"></i></button></div>
+    <!-- <app-trip></app-trip> -->
+    <!-- <app-trip></app-trip> -->
+    <!-- <app-trip></app-trip>
+    <app-trip></app-trip>
+    <app-trip></app-trip> -->
+</div>
